@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'test1/*'
+      - '.github/**'
 jobs:
   deploy:
     name: test1
