@@ -6,6 +6,6 @@ on:
 jobs:
   deploy:
     steps:
-    - uses: ./workflows/callable.yml
+    - uses: ./.github/workflows/callable.yml
       with:
         service_dir: test1
