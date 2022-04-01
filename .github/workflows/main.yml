@@ -6,9 +6,6 @@ on:
       - '.github/**'
 jobs:
   deploy:
-    name: test1
-    runs-on: ubuntu-latest
-    steps:
-    - uses: ./.github/workflows/callable.yml
-      with:
-        service_dir: test1
+    uses: ./.github/workflows/callable.yml
+    with:
+      service_dir: test1
