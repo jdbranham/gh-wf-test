@@ -1,0 +1,14 @@
+name: Callable WF
+on:
+  workflow_dispatch:
+    inputs:
+      service_dir:
+        description: the directory to work in
+        required: true
+        type: string
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: test
+    steps:
+      - run: echo hello from ${{ inputs.service_dir }}

@@ -1,2 +1,3 @@
 # gh-wf-test
-Github workflow test
+
+Test callable workflows with inputs and path filters
