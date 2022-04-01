@@ -5,6 +5,6 @@ on:
       - 'test1/*'
 jobs:
   deploy:
-    uses: ./.github/workflows/jobs/callable.yml
+    uses: ./.github/workflows/callable.yml
     with:
       service_dir: test1
