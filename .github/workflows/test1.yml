@@ -1,0 +1,10 @@
+name: Test 1
+on:
+  push:
+    paths:
+      - 'test1/*'
+jobs:
+  deploy:
+    uses: ./.github/workflows/callable.yml
+    with:
+      service_dir: test1
