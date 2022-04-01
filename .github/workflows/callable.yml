@@ -1,6 +1,6 @@
 name: Callable WF
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       service_dir:
         description: the directory to work in
